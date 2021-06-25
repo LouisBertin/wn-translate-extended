@@ -1,5 +1,5 @@
 # Translate Extended
-This plugins extends default behavior of the Rainlab's Translate plugin (http://octobercms.com/plugin/rainlab-translate) with following features:
+This plugins extends default behavior of the Winter's Translate plugin (https://github.com/wintercms/wn-translate-plugin) with following features:
  * detect browser language (optional)
  * display (and save into session) most preferred browser language instead of the default one (optional)
  * force browser language detection on every visit (optional)
