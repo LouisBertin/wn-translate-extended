@@ -8,7 +8,7 @@
 
 use StudioBosco\TranslateExtended\Models\Settings;
 use StudioBosco\TranslateExtended\Classes\ExtendedLocaleMiddleware;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 
 App::before(function($request) {
 

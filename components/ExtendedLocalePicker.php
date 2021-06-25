@@ -1,9 +1,9 @@
 <?php namespace StudioBosco\TranslateExtended\Components;
 
 use Cms\Classes\ComponentBase;
-use RainLab\Translate\Components\LocalePicker;
-use RainLab\Translate\Models\Locale as LocaleModel;
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Components\LocalePicker;
+use Winter\Translate\Models\Locale as LocaleModel;
+use Winter\Translate\Classes\Translator;
 
 class ExtendedLocalePicker extends LocalePicker
 {

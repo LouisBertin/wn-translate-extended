@@ -1,12 +1,12 @@
 <?php namespace StudioBosco\TranslateExtended\Classes;
 
-use RainLab\Translate\Classes\Translator;
+use Winter\Translate\Classes\Translator;
 use StudioBosco\TranslateExtended\Classes\BrowserMatching;
 use StudioBosco\TranslateExtended\Models\Settings;
 use Closure;
 use Config;
 use Request;
-use RainLab\Translate\Models\Locale;
+use Winter\Translate\Models\Locale;
 
 /**
  * Middleware for advanced locale detection
