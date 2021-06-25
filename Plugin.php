@@ -18,7 +18,7 @@ class Plugin extends PluginBase
         return [
             'name'        => 'Translate Extended',
             'description' => 'studiobosco.translateextended::lang.strings.plugin_desc',
-            'author'      => 'StudioBosco',
+            'author'      => 'Excodus, StudioBosco',
             'icon'        => 'icon-language',
             'homepage'    => 'https://github.com/studiobosco/wn-translate-extended'
         ];
