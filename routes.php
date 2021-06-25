@@ -45,7 +45,7 @@ App::before(function($request) {
         }
 
         if (Settings::get('force_prefix', true)) {
-            Route::get('/{any}', function ($any) use ($translator, $request) {
+            Route::get('/{any}', function () use ($translator, $request) {
                 $redirect = $translator->getDefaultLocale() . '/' . $request->path();
                 if ($request->query()) {
                     $redirect .= '?' . http_build_query($request->query());
