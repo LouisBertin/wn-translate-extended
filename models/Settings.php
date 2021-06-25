@@ -1,5 +1,5 @@
 <?php
-namespace Excodus\TranslateExtended\Models;
+namespace StudioBosco\TranslateExtended\Models;
 
 use Model;
 class Settings extends Model{
@@ -8,7 +8,7 @@ class Settings extends Model{
         'System.Behaviors.SettingsModel'
     ];
 
-    public $settingsCode = 'excodus_translateextended_settings';
+    public $settingsCode = 'studiobosco_translateextended_settings';
 
     public $settingsFields = 'fields.yaml';
 } 

@@ -19,7 +19,7 @@ return [
         'localepicker_desc'             => 'Shows list of links to change front-end language.'
     ],
     'permissions' => [
-        'tab'      => 'Excodus',
+        'tab'      => 'StudioBosco',
         'settings' => 'Access settings',
     ],
 ];

@@ -15,7 +15,7 @@ return [
         'homepage_redirect_comment'     => 'Если включено, префикс языка будет добавлен в адрес главной страницы.'
     ],
     'permissions' => [
-        'tab'      => 'Excodus',
+        'tab'      => 'StudioBosco',
         'settings' => 'Настройки Translate Extended',
     ],
 ];

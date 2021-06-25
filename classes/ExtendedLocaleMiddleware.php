@@ -1,8 +1,8 @@
-<?php namespace Excodus\TranslateExtended\Classes;
+<?php namespace StudioBosco\TranslateExtended\Classes;
 
 use RainLab\Translate\Classes\Translator;
-use Excodus\TranslateExtended\Classes\BrowserMatching;
-use Excodus\TranslateExtended\Models\Settings;
+use StudioBosco\TranslateExtended\Classes\BrowserMatching;
+use StudioBosco\TranslateExtended\Models\Settings;
 use Closure;
 use Config;
 use Request;

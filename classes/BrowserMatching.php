@@ -1,4 +1,4 @@
-<?php namespace Excodus\TranslateExtended\Classes;
+<?php namespace StudioBosco\TranslateExtended\Classes;
 
 /**
  * Util functions for language detection from the client browser

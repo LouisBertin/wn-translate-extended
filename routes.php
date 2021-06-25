@@ -6,8 +6,8 @@
  * Time: 16:12
  */
 
-use Excodus\TranslateExtended\Models\Settings;
-use Excodus\TranslateExtended\Classes\ExtendedLocaleMiddleware;
+use StudioBosco\TranslateExtended\Models\Settings;
+use StudioBosco\TranslateExtended\Classes\ExtendedLocaleMiddleware;
 use RainLab\Translate\Classes\Translator;
 
 App::before(function($request) {

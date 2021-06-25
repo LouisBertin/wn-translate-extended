@@ -1,4 +1,4 @@
-<?php namespace Excodus\TranslateExtended;
+<?php namespace StudioBosco\TranslateExtended;
 
 use System\Classes\PluginBase;
 use URL;
@@ -17,17 +17,17 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Translate Extended',
-            'description' => 'excodus.translateextended::lang.strings.plugin_desc',
-            'author'      => 'Excodus',
+            'description' => 'studiobosco.translateextended::lang.strings.plugin_desc',
+            'author'      => 'StudioBosco',
             'icon'        => 'icon-language',
-            'homepage'    => 'https://github.com/Excodus/oc-translate-extended'
+            'homepage'    => 'https://github.com/studiobosco/wn-translate-extended'
         ];
     }
 
     /**
      * @var array Plugin dependencies
      */
-    public $require = ['RainLab.Translate'];
+    public $require = ['Winter.Translate'];
 
     /**
      * Registers any front-end components implemented in this plugin.
@@ -37,7 +37,7 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Excodus\TranslateExtended\Components\ExtendedLocalePicker' => 'extendedLocalePicker'
+            'StudioBosco\TranslateExtended\Components\ExtendedLocalePicker' => 'extendedLocalePicker'
         ];
     }
 
@@ -49,9 +49,9 @@ class Plugin extends PluginBase
     public function registerPermissions()
     {
         return [
-            'excodus.translateextended.access_settings' => [
-                'tab'   => 'excodus.translateextended::lang.permissions.tab',
-                'label' => 'excodus.translateextended::lang.permissions.settings'
+            'studiobosco.translateextended.access_settings' => [
+                'tab'   => 'studiobosco.translateextended::lang.permissions.tab',
+                'label' => 'studiobosco.translateextended::lang.permissions.settings'
             ],
         ];
     }
@@ -60,13 +60,13 @@ class Plugin extends PluginBase
     {
         return [
             'translateextended' => [
-                'label'       => 'excodus.translateextended::lang.strings.settings_label',
-                'description' => 'excodus.translateextended::lang.strings.settings_desc',
+                'label'       => 'studiobosco.translateextended::lang.strings.settings_label',
+                'description' => 'studiobosco.translateextended::lang.strings.settings_desc',
                 'icon'        => 'icon-language',
-                'class'       => 'Excodus\TranslateExtended\Models\Settings',
+                'class'       => 'StudioBosco\TranslateExtended\Models\Settings',
                 'order'       => 552,
                 'category'    => 'rainlab.translate::lang.plugin.name',
-                'permissions' => ['excodus.translateextended.access_settings']
+                'permissions' => ['studiobosco.translateextended.access_settings']
             ]
         ];
     }

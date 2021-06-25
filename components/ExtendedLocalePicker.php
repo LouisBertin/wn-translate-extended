@@ -1,4 +1,4 @@
-<?php namespace Excodus\TranslateExtended\Components;
+<?php namespace StudioBosco\TranslateExtended\Components;
 
 use Cms\Classes\ComponentBase;
 use RainLab\Translate\Components\LocalePicker;
@@ -11,7 +11,7 @@ class ExtendedLocalePicker extends LocalePicker
     {
         return [
             'name'        => 'Extended Locale Picker',
-            'description' => 'excodus.translateextended::lang.strings.localepicker_desc'
+            'description' => 'studiobosco.translateextended::lang.strings.localepicker_desc'
         ];
     }
 

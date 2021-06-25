@@ -17,7 +17,7 @@ return [
         'localepicker_desc'             => 'Pokazuje listę linków do zmiany języka.'
     ],
     'permissions' => [
-        'tab'      => 'Excodus',
+        'tab'      => 'StudioBosco',
         'settings' => 'Dostęp do ustawień',
     ],
 ];
