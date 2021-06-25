@@ -1,10 +1,10 @@
 {
-    "name": "excodus/oc-translate-extended",
-    "type": "october-plugin",
-    "description": "Plugin to October CMS that extends behavior of the default Translate Plugin",
+    "name": "studiobosco/wn-translate-extended",
+    "type": "winter-plugin",
+    "description": "Plugin to Winter CMS that extends behavior of the default Translate Plugin",
     "keywords": [
-        "october",
-        "octobercms",
+        "winter",
+        "wintercms",
         "translate"
     ],
     "license": "MIT",
